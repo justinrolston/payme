@@ -1,2 +1,2 @@
-require './payme'
+require './paymj'
 run Sinatra::Application
