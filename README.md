@@ -9,3 +9,15 @@ starter sinatra app
  ```
 #Goto:
 http://localhost:9292/form
+
+
+#cURL:
+##Post:
+``` 
+curl --data "message=HelloCurl" http://localhost:9292/form
+```
+
+##Get:
+```
+curl  http://localhost:9292/form
+```
