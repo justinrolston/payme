@@ -1,5 +1,4 @@
 require 'spec_helper'
-require_relative '../payme.rb'
 
 describe 'The Payme App' do
   include Rack::Test::Methods
@@ -9,7 +8,7 @@ describe 'The Payme App' do
   end
 
   it "get /form" do
-    get "/form" 
+    get "/form"
     expect(last_response).to be_ok
   end
 
