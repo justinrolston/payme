@@ -1,5 +1,7 @@
 payme
 =====
+[![Build Status](https://travis-ci.org/justinrolston/payme.svg?branch=master)](https://travis-ci.org/justinrolston/payme)
+
 
 starter sinatra app
 
